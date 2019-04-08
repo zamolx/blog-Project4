@@ -1,0 +1,38 @@
+body {
+    padding-top: 54px;
+}
+
+.pagination {
+    margin-top: 30px;
+}
+
+.list-inline {
+    display: flex;
+    justify-content: center;
+}
+
+.pagination li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.pagination li a {
+    display: inline-block;
+    padding: 8px 12px;
+    border: 1px solid #eee;
+}
+
+.pagination li a.active {
+    font-weight: bold;
+    background: #f5f5f5;
+}
+
+.input_error {
+    border: red 1px solid;
+}
+
+@media (min-width: 992px) {
+    body {
+        padding-top: 56px;
+    }
+}

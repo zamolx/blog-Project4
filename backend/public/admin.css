@@ -1,0 +1,70 @@
+/*  CSS page*/
+body {
+    background: #16a085;
+    font-family: 'Roboto', sans-serif;
+}
+.jumbotron {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-bottom: 0;
+  background-color: #fff;
+}
+.dashboard {
+  background-color: #ecf0f1;
+}
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron-heading {
+  font-weight: 300;
+}
+
+.jumbotron .container {
+  max-width: 40rem;
+}
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+footer p {
+  margin-bottom: .25rem;
+}
+/* add notes*/
+.addNote,.updateNote
+{
+  margin-right: 10%;
+  margin-left: 10%;
+}
+.link_note{
+  display: flex;
+  justify-content: center;
+}
+.view_note {
+  margin-right: 10%;
+  margin-left: 10%;
+}
+.comments {
+	width: 50%;
+}
+.title_comment{
+color:blue;
+}
+.input_error {
+    border: red 1px solid;
+}
+.table tbody tr:hover td, .table tbody tr:hover th {
+    background-color: #eeeeea;
+}
+.table-responsive {
+  margin-left: 10%; 
+  width: 80%;
+}
+@media (max-width: 576px) {
+  .jumbotron {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+}
